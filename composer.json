@@ -1,0 +1,20 @@
+{
+  "name": "goalgorilla/composer-upstream-lock",
+  "description": "Composer plugin to resolve requirements according to an external lock file.",
+  "license": "proprietary",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {
+      "OpenSocial\\ComposerUpstreamLock\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "OpenSocial\\ComposerUpstreamLock\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "^2.0"
+  },
+  "require-dev": {
+    "composer/composer": "^2.0"
+  }
+}
